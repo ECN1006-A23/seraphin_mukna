@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Livre ou Écran : Deux Voies vers l'Acquisition de Connaissances
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Ephesis&family=Roboto+Condensed:ital,wght@1,300&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      /* debut du css page */
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      body {
+        font-family: Arial, sans-serif;
+        font-size: 17px;
+        color: #b0d9b1;
+        line-height: 1.6;
+      }
+      h1 {
+        display: block;
+        margin: 0 auto;
+        font-size: 40px;
+        border-style: solid;
+        border-width: 3px;
+        border-color: rgb(115, 144, 114);
+        border-radius: 10px;
+        padding: 10px;
+        max-width: 92%;
+      }
+      #mapage {
+        background-image: url("https://educationontario.com/app/uploads/2022/04/image022.png");
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0 20px;
+      }
+
+      #mapage h1 {
+        font-size: 50px;
+        position: relative;
+        animation: fall 2s ease-in-out forwards;
+        font-family: "Ephesis", cursive;
+        font-family: "Roboto Condensed", sans-serif;
+      }
+
+      @keyframes fall {
+        0% {
+          transform: translateY(-100vh);
+        }
+        100% {
+          transform: translateY(0);
+        }
+      }
+
+      #mapage .button {
+        font-size: 18px;
+        text-decoration: none;
+        color: #b0d9b1;
+        border: #b0d9b1 1px solid;
+        padding: 10px 20px;
+        border-radius: 10px;
+        margin-top: 20px;
+      }
+
+      #mapage .button:hover {
+        background: #b0d9b1;
+        color: #fff;
+      }
+
+      /* fin */
+
+         body {
+        background: linear-gradient(
+          90deg,
+          rgb(134, 167, 137) 0%,
+          rgb(178, 200, 186) 50%,
+          rgb(210, 227, 200) 100%
+        );
+      }
+
+
+      ul {
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+        padding: 0px;
+        color: E5D4FF;
+      }
+      
+       li {
+        list-style-type: none;
+        display: inline-block;
+        border: 1px;
+        border-radius: 10px;
+        margin: 0 auto;
+        padding: 10px 20px 10px 20px;
+        transition: all 400ms ease-in-out;
+        line-height: 25px;
+        font-size: 17px;
+        max-width: 820px;
+        opacity: 0.8;
+      }
+     
+      li:hover {
+        background-color: rgb(69, 60, 103);
+        opacity: 1;
+      }
+      a {
+        color: rgb(168, 210, 177);
+      }
+      a:hover {
+        color: rgb(159, 184, 167);
+        text-decoration: underline;
+      }
+      p {
+        margin-bottom: 15px;
+      }
+      
+      button {
+        display: block;
+        margin: 60px auto;
+        padding: 10px 20px;
+        border-radius: 10px;
+        box-shadow: inset 0 -3em 3em rgbargb(115, 144, 114),
+          0 0 0 2px yellowgreen, 0.3em 0.3em 1em rgba(0, 0, 0, 0.3);
+        background: rgb(240, 248, 195);
+        font-size: 16px;
+        color: rgb(115, 144, 114);
+      }
+    
+      button:hover {
+        border-style: solid;
+        border-width: 1px;
+        border-color: rgbrgb(115, 144, 114);
+        background-color: rgba(136, 96, 255, 0.4);
+        color: rgbrgb(240, 248, 195);
+        text-decoration: underline;
+        cursor: pointer;
+      }
+     
+      hr {
+        background-color: rgba(136, 96, 255, 0.1);
+        height: 1px;
+        border: none;
+        width: 99%
+      }
+     
+      .moncorp {
+        background-color: rgba(2, 2, 2, 0.45);
+        color: rgb(222, 211, 255);
+        max-width: 900px;
+        display: block;
+        margin: 0 auto;
+        padding: 40px 50px 40px 50px;
+        border: none;
+        border-radius: 6px;
+        font-family: Arial;
+        text-align: center;
+      }
+
+   
+      .moncorp1 {
+        height: 75px;
+        line-height: 75px;
+        padding: 15px 0px 0px 0px;
+        display: inline-block;
+      }
+
+     
+       .moncorp2 {
+        font-family: "Arial", sans-serif;
+        height: 75px;
+        line-height: 75px;
+        padding: 0px 0px 15px 0px;
+        display: inline-block;
+      }
+
+      .moncorp3 {
+        height: 75px;
+        line-height: 75px;
+        padding: 0px 0px 15px 0px;
+        display: inline-block;
+      }
+
+      .monimage {
+        object-fit: cover;
+         object-fit: cover;
+        height: 5%;;
+        width: 100%;
+        min-width: 1%;
+        max-width: 100%;
+        margin-bottom: 20px;
+         border-radius: 10%;
+      }
+        
+        .sourcelink:hover {
+        color: rgb(210, 227, 200);
+        text-decoration: underline;
+      }
+      .footer {
+        font-family: monospace;
+        font-size: 12px;
+        color: rgb(69, 60, 103);
+        display: block;
+        margin: 0 auto;
+        padding: 20px;
+        text-align: center;
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- le debut de ma page  -->
+    <header id="mapage">
+      <h1>BIENVENUE SUR MA PAGE MADAME CANDICE 😊<br /></h1>
+      <a href="#debut" class="button">cliquez ici pour continuer</a>
+    </header>
+    <!-- fin  -->
+    <a name="debut"></a>
+    <div class="moncorp">
+      <h1>Livre ou Écran, Deux Voies vers l'Acquisition de Connaissances</h1>
+
+      <br />
+      <img
+        src="https://images.unsplash.com/photo-1507721999472-8ed4421c4af2?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+        alt="livre_ou_ecran"
+        class="monimage"
+      />
+      <div class="moncorp1">
+        <p>
+          Dans un monde en constante évolution, le paysage de la littératie est
+          en mutation. L'opposition entre le livre imprimé et la publication en
+          ligne soulève des questions quant à ses avantages et ses
+          inconvénients. Quelles sont les forces et les faiblesses de chaque
+          format, et comment influencent-ils notre accès à la connaissance ?
+        </p>
+        <br />
+      </div>
+      <div class="moncorp2">
+        <p>
+          Nous vivons actuellement une transition significative entre
+          l'utilisation du livre imprimé et la prédominance des publications en
+          ligne, marquant la fin d'une ère traditionnelle de la littérature et
+          le début d'une nouvelle ère numérique. Cette transformation suscite
+          des réflexions sur l'impact de ces deux moyens sur notre quête de
+          connaissances.
+        </p>
+
+
+
+        <p>
+          Aujourd'hui, la technologie a radicalement transformé l'accès à
+          l'information, offrant une accessibilité sans précédent. Grâce à nos
+          appareils tels que les smartphones et les tablettes, nous pouvons
+          accéder à une multitude de ressources éducatives, ce qui est
+          particulièrement bénéfique pour la recherche et l'apprentissage. La
+          publication en ligne permet également une personnalisation de
+          l'expérience de lecture, offrant la possibilité d'ajuster la couleur,
+          la taille du texte et d'autres paramètres pour répondre aux besoins
+          individuels.
+        </p>
+      </div>
+      <div class="moncorp3">
+        <p>
+          Cependant, cette commodité numérique s'accompagne de certains
+          inconvénients. Lorsqu'il s'agit de la lecture sur papier, le contact
+          physique avec les pages et l'odeur de l'encre imprégnée offrent une
+          expérience sensorielle unique qui stimule l'imagination. En revanche,
+          la lecture sur écran peut entraîner des distractions constantes, car
+          les appareils électroniques nous exposent à une multitude de
+          notifications et d'applications potentiellement perturbatrices, ce qui
+          peut nuire à la concentration.
+        </p>
+
+        <p>
+          En conclusion, le choix entre le livre imprimé et la publication en
+          ligne dépend des préférences individuelles et de la manière dont
+          chacun perçoit et absorbe l'information. Il n'y a pas de réponse
+          universelle à cette question, car certains privilégieront la
+          publication en ligne pour sa flexibilité, tandis que d'autres
+          préféreront l'expérience tactile du livre imprimé. L'essentiel est de
+          trouver le format qui permet de s'épanouir dans l'acquisition de
+          connaissances. Cette réflexion nous invite à explorer davantage
+          comment ces deux voies influencent notre rapport à la connaissance et
+          à l'apprentissage dans un monde en constante évolution.
+        </p>
+      </div>
+      <button class="seraphin">
+        <strong>Cliquez ici pour participer a notre sondage 👈️</strong>
+      </button>
+    </div>
+
+    <hr />
+
+    <div class="sourcelink">
+      <ol>
+        <li>
+          <a href="https://doi.org/10.4000/edc.6025" target="_blank"
+            >Zerbib, O. (2014)</a
+          >
+        </li>
+        <br />
+        <li>
+          <a href="https://doi.org/10.4000/edc.5962" target="_blank"
+            >Paquienséguy, F. & Bosser, S. (2014)</a
+          >
+        </li>
+        <br />
+        <li>
+          <a href="https://doi.org/10.3917/docsi.472.0022" target="_blank"
+            >Delègue, M., Janik, J., Manon, É. & Manara, C. (2010)</a
+          >
+        </li>
+      </ol>
+    </div>
+
+    <script>
+      function demanderChoix() {
+        let choix = prompt(
+          "Préférez-vous apprendre à partir d'un livre traditionnel ou d'un livre électronique ?"
+        );
+
+        if (choix !== null) {
+          if (choix.trim() !== "") {
+            alert("Vous avez choisi : " + choix);
+          } else {
+            alert("Aucun choix n'a été fait.");
+          }
+        }
+      }
+      document
+        .querySelector(".seraphin")
+        .addEventListener("click", demanderChoix);
+    </script>
+  </body>
+</html>
